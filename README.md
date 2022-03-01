@@ -2,9 +2,9 @@ Codewars1-2021Q3
 Numbers, strings
 7 kyu https://www.codewars.com/kata/absent-vowel \*\*
 7 kyu https://www.codewars.com/kata/get-the-middle-character \*\*
-7 kyu https://www.codewars.com/kata/highest-and-lowest
-7 kyu https://www.codewars.com/kata/jaden-casing-strings
-7 kyu https://www.codewars.com/kata/disemvowel-trolls
+7 kyu https://www.codewars.com/kata/highest-and-lowest \*\*
+7 kyu https://www.codewars.com/kata/jaden-casing-strings \*\*
+7 kyu https://www.codewars.com/kata/disemvowel-trolls \*\*
 7 kyu https://www.codewars.com/kata/isograms
 7 kyu https://www.codewars.com/kata/nickname-generator
 7 kyu https://www.codewars.com/kata/digits-explosion
