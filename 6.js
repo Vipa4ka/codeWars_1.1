@@ -1,28 +1,18 @@
 function isIsogram(str) {
-    for (let i = 0; i < str.length; i++){
-        let z=[]
-        let r = str[i].toLowerCase();
-
-        z.push(r);
-
-        console.log(r);
-        console.log(str); 
-
-
-        let d = str.includes(r);  
+    let z=[]
+    for (let i = 0; i < str.length; i++){        
+        let r = str[i].toLowerCase();        
         if (z.includes(r)) {
             return false;
-        } else {
-            i++
+        } else {            
+            z.push(r);
         }
-    //   return  !str.includes(r) ? true : false;
-        console.log(z);
     }
-    
+    return true    
 }
 
 
-// console.log(isIsogram("Dermatoglyphics"))   //, true );
+console.log(isIsogram("Dermatoglyphics"))   //, true );
 
 // console.log(isIsogram("aba")); 
 console.log(isIsogram("isogram"));  //true ); 
