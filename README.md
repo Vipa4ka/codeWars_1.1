@@ -10,12 +10,17 @@ Numbers, strings
 6 kyu https://www.codewars.com/kata/handshake-problem \*\*
 6 kyu https://www.codewars.com/kata/reverse-or-rotate \*\*
 6 kyu https://www.codewars.com/kata/multiples-of-3-or-5 \*\*
+
 Arrays
 7 kyu https://www.codewars.com/kata/head-tail-init-and-last \*\*
-6 kyu https://www.codewars.com/kata/array-deep-count
+6 kyu https://www.codewars.com/kata/array-deep-count \*\*
 6 kyu https://www.codewars.com/kata/valid-string
+6 kyu https://www.codewars.com/kata/length-of-missing-array
+6 kyu https://www.codewars.com/kata/pair-of-gloves
 6 kyu https://www.codewars.com/kata/sorting-by-bits
 Functions
+7 kyu https://www.codewars.com/kata/javascript-mathematician
+6 kyu https://www.codewars.com/kata/nuclear-missile-manager
 6 kyu https://www.codewars.com/kata/closures-and-scopes
 6 kyu https://www.codewars.com/kata/can-you-keep-a-secret
 Date
@@ -25,7 +30,12 @@ Date
 Objects
 7 kyu https://www.codewars.com/kata/mylanguages
 6 kyu https://www.codewars.com/kata/run-length-encoding
-6 kyu https://www.codewars.com/kata/urban-dictionary
+6 kyu https://www.codewars.com/kata/lets-recycle
+
+6 kyu https://www.codewars.com/kata/duplicate-encoder
+6 kyu https://www.codewars.com/kata/n-th-fibonacci
+
 Data Structures
-7 kyu https://www.codewars.com/kata/convert-a-linked-list-to-a-string
-5 kyu https://www.codewars.com/kata/fun-with-trees-array-to-tree
+
+<!-- 7 kyu https://www.codewars.com/kata/convert-a-linked-list-to-a-string
+5 kyu https://www.codewars.com/kata/fun-with-trees-array-to-tree -->
