@@ -17,7 +17,7 @@ Arrays
 6 kyu https://www.codewars.com/kata/valid-string
 6 kyu https://www.codewars.com/kata/length-of-missing-array \*\*
 6 kyu https://www.codewars.com/kata/pair-of-gloves \*\*
-6 kyu https://www.codewars.com/kata/sorting-by-bits
+6 kyu https://www.codewars.com/kata/sorting-by-bits \*\*
 Functions
 7 kyu https://www.codewars.com/kata/javascript-mathematician
 6 kyu https://www.codewars.com/kata/nuclear-missile-manager
