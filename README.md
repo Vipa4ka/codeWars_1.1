@@ -20,7 +20,7 @@ Arrays
 6 kyu https://www.codewars.com/kata/sorting-by-bits \*\*
 Functions
 7 kyu https://www.codewars.com/kata/javascript-mathematician \*\*
-6 kyu https://www.codewars.com/kata/nuclear-missile-manager
+6 kyu https://www.codewars.com/kata/nuclear-missile-manager \*\*
 6 kyu https://www.codewars.com/kata/closures-and-scopes
 6 kyu https://www.codewars.com/kata/can-you-keep-a-secret
 Date
