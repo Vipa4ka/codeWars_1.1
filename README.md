@@ -24,7 +24,7 @@ Functions
 6 kyu https://www.codewars.com/kata/closures-and-scopes \*\*
 6 kyu https://www.codewars.com/kata/can-you-keep-a-secret \*\*
 Date
-7 kyu https://www.codewars.com/kata/the-coupon-code
+7 kyu https://www.codewars.com/kata/the-coupon-code \*\*
 7 kyu https://www.codewars.com/kata/unlucky-days
 4 kyu https://www.codewars.com/kata/human-readable-duration-format
 Objects
