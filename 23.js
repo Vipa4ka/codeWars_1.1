@@ -1,5 +1,4 @@
 function formatDuration(seconds) {
-    
 if (seconds === 0) {
         return 'now'
     }
@@ -8,16 +7,15 @@ if (seconds === 0) {
     }
     if (seconds < 3600) {
         let min;
-        parseInt(seconds / 60) === 1 ? min = "1 minute " : min = parseInt(seconds / 60) + " minutes "
+        parseInt(seconds / 60) === 1 ? min = "1 minute " : min = parseInt(seconds / 60) + " minutes"
         let sec = seconds % 60;
         if (sec === 0) {
              sec=''
         } else if (sec === 1) {
-            sec=sec +' second '
+            sec='and 1 second '
         } else {
-            sec=sec+ ' seconds '
-        }   
-
+            sec='and '+ sec+ ' seconds'
+        }  
         return min  +  sec
     }
     if (seconds < 86400) { 
@@ -25,11 +23,10 @@ if (seconds === 0) {
         if (s === 0) {
              s=''
         } else if (s === 1) {
-            s=s +' second '
+            s=s +' second'
         } else {
-            s=s+ ' seconds '
-        }
-        
+            s=s+ ' seconds'
+        }        
         let m = parseInt(seconds % 3600 / 60);
         if (m === 0) {
              m=''
@@ -45,7 +42,7 @@ if (seconds === 0) {
     if (seconds < 31536000) {
           let d = parseInt(seconds / 3600/24);
         let dd = d === 1 ? d + ' day' : d + ' days'
-        let hrs = parseInt(seconds % 3600 / 60/24);
+        let hrs = parseInt(seconds % 86400/3600);        
         if (hrs === 0) {
              hrs=''
         } else if (hrs === 1) {
@@ -57,18 +54,17 @@ if (seconds === 0) {
         if (mmm === 0) {
              mmm=''
         } else if (mmm === 1) {
-            mmm=', '+mmm +' minute '
+            mmm=', '+mmm +' minute'
         } else {
-            mmm=', '+mmm+ ' minutes '
+            mmm=', '+mmm + ' minutes'
         }
-
         let sss = seconds % 60;
         if (sss === 0) {
              sss=''
         } else if (sss === 1) {
-            sss='and '+sss +' second'
+            sss=' and '+sss +' second'
         } else {
-            sss='and '+sss+ ' seconds'
+            sss=' and '+sss+ ' seconds'
         }
      return  dd  +hrs+ mmm  +  sss
     } else {
@@ -80,37 +76,52 @@ if (seconds === 0) {
         } else if (ddd === 1) {
             ddd='1 days, '
         } else {
-            ddd=ddd+ ' days, '
+            ddd=ddd+ ' days'
         }
         let hhh = parseInt(parseInt(seconds / 3600 % 24)) ;
         if (hhh === 0) {
              hhh=''
         } else if (hhh === 1) {
-            hhh=', '+hhh +' hour '
+            hhh = ', ' + hhh + ' hour';
         } else {
-            hhh=', '+hhh+ ' hours '
+            hhh = ', ' + hhh + ' hours';
         }
-         let mmmm = parseInt(seconds % 3600/60);
-        if (mmmm === 0) {
+        let ssss = seconds % 60;
+        if (ssss === 0) {
+            ssss = '';            
+        } else if (ssss === 1) {
+            ssss=' and '+ssss +' second'
+        } else {
+            ssss=' and '+ssss+ ' seconds'
+        } 
+        let mmmm = parseInt(seconds % 3600 / 60);
+        if (ssss != 0) {
+            if (mmmm === 0) {
              mmmm=''
         } else if (mmmm === 1) {
             mmmm=', '+mmmm +' minute '
         } else {
-            mmmm=', '+mmmm+ ' minutes '
-        }
-        let ssss = seconds % 60;
-        if (ssss === 0) {
-             ssss=''
-        } else if (ssss === 1) {
-            ssss='and '+ssss +' second '
+            mmmm=', '+mmmm+ ' minutes'
+        }            
         } else {
-            ssss='and '+ssss+ ' seconds '
-        }  
-        return yy + ddd +hhh + mmmm + ssss        
+            if (mmmm === 0) {
+             mmmm=''
+        } else if (mmmm === 1) {
+            mmmm=' and '+mmmm +' minute '
+        } else {
+            mmmm=' and '+mmmm+ ' minutes'
+        }            
+        } 
+        return yy + ddd +hhh +mmmm + ssss        
     } 
 }
 
-console.log(formatDuration(1));   //, "1 second");
+console.log(formatDuration(4644021));   //, '53 days, 18 hours and 21 seconds');
+// console.log(formatDuration(9666047));   //, '111 days, 21 hours and 47 seconds');
+console.log(formatDuration(7679151));   //, '88 days, 21 hours, 5 minutes and 51 seconds');
+// console.log(formatDuration(132030240));   //, '4 years, 68 days, 3 hours and 4 minutes');
+// console.log(formatDuration(253374061));   //, '8 years, 12 days, 13 hours, 41 minutes and 1 second');
+// console.log(formatDuration(1));   //, "1 second");
 // console.log(formatDuration(62));  //, "1 minute and 2 seconds");
 // console.log(formatDuration(120));  //, "2 minutes");
 // console.log(formatDuration(3600));   //, "1 hour");
