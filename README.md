@@ -29,7 +29,7 @@ Date
 4 kyu https://www.codewars.com/kata/human-readable-duration-format \*\*
 Objects
 7 kyu https://www.codewars.com/kata/mylanguages \*\*
-6 kyu https://www.codewars.com/kata/run-length-encoding
+6 kyu https://www.codewars.com/kata/run-length-encoding \*\*
 6 kyu https://www.codewars.com/kata/lets-recycle
 
 6 kyu https://www.codewars.com/kata/duplicate-encoder
