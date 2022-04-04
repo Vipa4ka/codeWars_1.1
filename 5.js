@@ -1,23 +1,12 @@
 function disemvowel(str) {
     const arr = ["a", "e", "i", "o", "u"];
-    for (let i = 0; i < arr.length; i++) {
-        console.log(arr[i])
-        let rez = str.split('')
-        console.log(rez)
-        console.log(result)
-
-        // if (!str.includes(arr[i])) {
-        //     console.log(str.includes(arr[i]))
-        //     return i
-        // }
-    }
-    return result;
+    let a= str.split('').filter(e =>        
+        !arr.includes(e.toLowerCase()))
+return a.join('');;
 }
 
 
 console.log(disemvowel("This website is for losers LOL!"));
-
-
 
 
 

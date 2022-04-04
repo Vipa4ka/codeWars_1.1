@@ -30,7 +30,7 @@ Date
 Objects
 7 kyu https://www.codewars.com/kata/mylanguages \*\*
 6 kyu https://www.codewars.com/kata/run-length-encoding \*\*
-6 kyu https://www.codewars.com/kata/lets-recycle
+6 kyu https://www.codewars.com/kata/lets-recycle \*\*
 
 6 kyu https://www.codewars.com/kata/duplicate-encoder
 6 kyu https://www.codewars.com/kata/n-th-fibonacci

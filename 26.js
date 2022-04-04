@@ -42,6 +42,8 @@ console.log(recycle(a))
 //   return recyclerMaterials.map(m => objects.filter(o => o.material == m || o.secondMaterial == m).map(o => o.type));
 // }
 
+
+
 // output = [
 //   ["wine bottle", "amazon box", "beer bottle"],
 //   ["wine bottle", "beer bottle"],
